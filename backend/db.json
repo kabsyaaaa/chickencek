@@ -1,0 +1,18 @@
+{
+  "users": [
+    { "id": "u1", "name": "Asep", "email": "asep@chickencek.id", "password": "12345678" }
+  ],
+  "products": [
+    { "id": "p1", "name": "Paha Atas", "variant": "Original", "stock": 12, "price": 8000, "desc": "Bagian paha atas, gurih dan berdaging tebal." },
+    { "id": "p2", "name": "Paha Bawah", "variant": "Crispy", "stock": 9, "price": 8000, "desc": "Renyah di luar, empuk di dalam, favorit anak-anak." },
+    { "id": "p3", "name": "Chicken Wing", "variant": "Original", "stock": 8, "price": 7000, "desc": "Sayap ayam gurih, cocok untuk camilan sore." },
+    { "id": "p4", "name": "Spicy Chicken", "variant": "Crispy", "stock": 6, "price": 9000, "desc": "Ayam dengan sensasi pedas di dalam dan renyah di luar dengan daging yang empuk." }
+  ],
+  "orders": [
+    { "id": "CK-202609", "name": "Asep", "menu": "Original", "qty": 2, "note": "", "total": 16000, "createdAt": "2026-09-21T10:20:00.000Z" },
+    { "id": "CK-202610", "name": "Budi", "menu": "Crispy", "qty": 1, "note": "", "total": 8000, "createdAt": "2026-09-21T11:05:00.000Z" }
+  ],
+  "meta": {
+    "lastOrderNumber": 202610
+  }
+}
